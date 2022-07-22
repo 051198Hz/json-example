@@ -13,6 +13,7 @@ function login() {
         id: id.value,
         password: password.value,
     };
+
     fetch("/login",{
         method:"POST",
         headers:{
@@ -20,10 +21,13 @@ function login() {
         },
         body: JSON.stringify(req),
     }).then( (res) => res.json())
-    .then( (res) => (console.log(res)));
-    
-
-
+    .then( (res) => {
+        if(res.success){
+            location.href = "/";
+        }else{
+            alert("올바른 정보를 입력하세요!");
+        }
+    });
 }
 
 
