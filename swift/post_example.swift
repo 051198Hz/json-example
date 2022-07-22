@@ -1,7 +1,7 @@
 import Foundation
 import PlaygroundSupport
-let id = "peeper";
-let password = "1234"
+let id = "admin";
+let password = "admin"
 var json: [String: Any] = ["id": id,"password": password];
 
 let jsonData = try? JSONSerialization.data(withJSONObject: json)
