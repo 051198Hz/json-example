@@ -23,6 +23,7 @@ function login() {
     }).then( (res) => res.json())
     .then( (res) => {
         if(res.success){
+            alert(`환영합니다, ${id.value} 님!`);
             location.href = "/";
         }else{
             alert("올바른 정보를 입력하세요!");
