@@ -57,7 +57,7 @@
 #projects_contens {
     font-family: 'GowunBatang-Regular', '고운바탕';
     color: black;
-    background-image: url("./project2.png");
+    background-image: url("/img/project2.png");
     background-size: cover;
 }
 
