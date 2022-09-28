@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#title_img {
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#phase1 {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+
+#profile_img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+#phase1_sub {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    padding-top:40px;
+    text-align: center;
+    font-size: 100px;
+    color: #ffffff;
+}
+
+
+#phase2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #ffffff;
+    margin-bottom: 200px;
+}
+
+#usablelang {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+}
+
+#projects_contens {
+    font-family: 'GowunBatang-Regular', '고운바탕';
+    color: black;
+    background-image: url("./project2.png");
+    background-size: cover;
+}
+
+#spaceRecord_title {
+    margin: 20px;
+    display: inline-block;
+    font-size: 50px;
+}
+
+#spaceRecord_subtitle {
+    display: inline;
+    font-family: 'GowunBatang-Regular', '고운바탕';
+    font-size: 20px;
+}
+
+#register_content {
+    background: #efefef;
+    padding: 10px;
+    margin: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 60%;
+    height: 30%;
+    text-align: left;
+    display: flex;
+}
+
+.phase_sub {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -30px;
+    padding-top: 40px;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 100px;
+    color: #ffffff;
+}
+
+.phase_sub2 {
+    margin-top: -30px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.phase2_content {
+    width: 300px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.phase2_img {
+    width: 250px;
+    margin-right: 50px;
+    display: block;
+}
+
+.icon {
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 0px;
+    width: 30px;
+    height: auto;
+    float: left;
+}
+
+.card_subject {
+    padding: 0;
+    margin: 0;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card {
+    margin: 30px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding: 20px;
+
+    height: 220px;
+    width: 350px;
+    display: inline-block;
+    border-radius: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: #ffffff;
+    align-items: flex-start;
+}
+
+.big_card {
+    margin: 5%;
+    margin-bottom: 5%;
+    margin-top: 0px;
+    height: 600px;
+    width: 90%;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: #e1e1e1;
+
+    align-items: flex-start;
+}
+
+.content {
+    padding: 10px;
+}
+
+.spaceRecord_text {
+    display: block;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.languege {
+    margin: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background: #1E1F21;
+    width: 100%;
+}
+
+header {
+    top: 0px;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #292A2D;
+}
+
+header h1 {
+    margin-top: 0px;
+    padding-left: 10px;
+    border: 0px;
+    font-size: 60px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav {
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #292A2D;
+    margin-top: 0px;
+    border: 0px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+span {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+ul h1 {
+    font-size: medium;
+}
+
+li {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+form {
+    margin: 20px;
+}
+
+iframe {
+    margin: 10px;
+    width: 500px;
+    height: 450px;
+}
