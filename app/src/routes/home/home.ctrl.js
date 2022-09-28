@@ -8,6 +8,9 @@ const output = {
     login : (req, res) => {
         res.render("home/login");
     },
+    portfolio: (req, res) => {
+        res.render("home/portfolio");
+    },
     img : (req,res)=>{
         fs.readFile("img" + req.params.img_name, function (err, data) {
             /*
