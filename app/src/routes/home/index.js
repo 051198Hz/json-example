@@ -7,6 +7,7 @@ const ctrl = require("./home.ctrl");
 
 router.get("/", ctrl.output.home);
 router.get("/login", ctrl.output.login);
+router.get("/portfolio",ctrl.output.portfolio)
 router.get("/img",ctrl.output.img);
 //브라우저가 주소창으로 서버에 요청한것 처리 get
 
