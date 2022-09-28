@@ -1,3 +1,4 @@
+//plz run in playground
 import Foundation
 import PlaygroundSupport
 let id = "admin";
