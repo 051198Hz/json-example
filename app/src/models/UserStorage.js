@@ -5,6 +5,7 @@ class UserStorage{
         id: ["admin", "guest",],
         password: ["admin", "",],
     };
+    
     static getUsers(...fields){
         const users = this.#users;
         const newUsers = fields.reduce( (newUsers,field) => {
@@ -15,6 +16,7 @@ class UserStorage{
             },{});
         return newUsers;
     }
+    
 }
 //reduce에 대한 설명
 //reduce( 콜백함수,누산기에 들어갈 최초값) 으로 구성된다.

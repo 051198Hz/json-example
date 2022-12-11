@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../node_study"
+		},
+		{
+			"path": "../../../../.."
+		},
+		{
+			"path": "../../../../../../web_Programing"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web_Programing"
+	}
+}
